@@ -58,6 +58,7 @@ color: rgb(16, 189, 189);
 
     pre, code {
         font-family: monospace, monospace;
+        
       }
       pre {
         overflow: auto;
@@ -66,6 +67,5 @@ color: rgb(16, 189, 189);
         display: block;
         padding: 1rem;
         word-wrap: normal;
-        background-color: rgb(141, 129, 151);
       }
 }
