@@ -1,6 +1,8 @@
 html, body{
     scroll-behavior: smooth;
-    /* background-color: rgb(252, 253, 253); */
+    background-color: rgb(252, 253, 253);
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -46,6 +48,11 @@ color: rgb(16, 189, 189);
     font-weight: 500;
 }
 
+#main-doc > section > article > pre{
+    background-color: #3423;
+    padding: 15px auto ;
+}
+
 @media (max-width: 768px) {
     #navbar {
         position: static;
@@ -55,17 +62,4 @@ color: rgb(16, 189, 189);
     #navbar a {
         margin-top: 10px;
     }
-
-    pre, code {
-        font-family: monospace, monospace;
-        
-      }
-      pre {
-        overflow: auto;
-      }
-      pre > code {
-        display: block;
-        padding: 1rem;
-        word-wrap: normal;
-      }
 }
